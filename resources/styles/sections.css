@@ -1,0 +1,173 @@
+@import url(root-fonts.css);
+
+/*Sections */
+
+main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+section{
+    border: thin solid #eaeaea;
+    margin-bottom: 20px;
+    border-radius: 35px;
+    padding: 45px;
+}
+
+#summary{
+
+}
+
+#summary-header-text{
+    display: flex;
+    align-items: center;
+}
+#summary-header-text img{
+    height: 100%;
+    width: 30px;
+    margin-right: 10px
+}
+
+#summary button{
+    background-color: #1c1c1c;
+}
+#summary button h4{
+    color: #eaeaea;
+}
+#summary button:hover{
+    background-color: #B5B5B5;
+}
+#summary button:hover h4{
+    color: #1c1c1c;
+}
+#experience button{
+    background-color: var(--experience-bg-color);
+}
+#experience button h4{
+    color: #1c1c1c;
+}
+#experience button:hover{
+    background-color: #1c1c1c;
+}
+#experience button:hover h4{
+    color: var(--experience-bg-color);
+}
+#projects button{
+    background-color:var(--projects-bg-color);
+}
+#projects button h4{
+    color:#1c1c1c
+}
+#projects button:hover{
+    background-color: #1c1c1c;
+}
+#projects button:hover h4{
+    color: var(--projects-bg-color);
+}
+button{
+    display: flex;
+    background-color:rgb(61, 61, 61);
+    height:60px;
+    align-items: center;
+    border-radius: 35px;
+    padding: 0 15px 0 0;
+}
+
+button:hover{
+    background-color: #B5B5B5;
+    transition: 0.4s;
+}
+
+button img{
+    height: 75%;
+}
+button:hover h4{
+    color: #1c1c1c;
+}
+
+.section-title{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-container.inline{
+    
+}
+
+.expand-section{
+    display: none;
+
+}
+
+.section-element{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section-element h2{
+    margin-right: 20px;
+    font-weight: bolder;
+}
+
+/*Experience and Projects section*/
+
+#experience-projects-section{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h4 .section-headline {
+    margin-top: 10px;
+}
+
+#experience{
+    background-color: var(--experience-bg-color);
+    width: 35%;
+}
+
+#experience-title{
+    margin-top: 0;
+}
+
+#experience h4{
+    color: #1c1c1c;
+}
+
+#experience button{
+    background-color: #cecece;
+}
+#projects{
+    background-color: #eaeaea;
+    width: 35%;
+}
+#projects-title{
+    margin-top: 0;
+}
+
+#projects h4{
+    color: #1c1c1c;
+}
+
+#projects button{
+    background-color: #eaeaea;
+}
+
+.section-element.column{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding-top: 30px;
+}
+
+.project-description{
+    margin-left: 120px;
+}

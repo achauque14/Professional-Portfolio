@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/styles/general.css">
+    <link rel="stylesheet" href="resources/styles/header-footer.css">
+    <link rel="stylesheet" href="resources/styles/sections.css">
+    <link rel="stylesheet" href="resources/styles/root-fonts.css">
+    <link rel="stylesheet" href="resources/styles/cellphones-media.css">
+    <link rel="stylesheet" href="resources/styles/tablet-media.css">
+    <link rel="stylesheet" href="resources/styles/laptops-media.css">
+    <link rel="stylesheet" href="resources/styles/monitors-media.css">
+    <script src="resources/scripts/final-script.js" defer></script>
+    <title>Web Portfolio</title>
+</head>
+<body>
+     <header>
+        <nav>
+            <img src="resources/images/logos/AC Logos-02.svg" id="personal-logo" alt="Personal Logo">
+            <ul class="navbar-links">
+                <li>
+                    <a href="#">About Me</a>
+                </li>
+                <li>
+                    <a href="#">Experience</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1 id="main-header"><div id="blinker"></div></h1>
+            <div class="content-links">
+                <img src="resources/images/icons/person-light.svg" class="header-link" id="about-me-link" alt="">
+                <img src="resources/images/icons/experience-dark.svg" class="header-link"  id="experience-link" alt="">
+                <img src="resources/images/icons/projects-dark.svg" class="header-link"  id="projects-link" alt="">
+                <img src="resources/images/icons/expand-dark.svg" class="header-link" id="expand-link" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--- Summary section -->
+        <section id="summary">
+            <div id="summary-header-text">
+                <img id="summary-header-icon" src="resources/images/icons/person-light.svg" alt="about-me section">
+                <h4 id="summary-headline">Summary</h4>
+            </div>
+            <p id="summary-p">Hello! My name is Alan Albino Roberto Chaúque and I'm a technology and innovation lover, focused in creating 
+            efficient and safe solutions for the digital world.</p>
+            <button type="submit"  id="summaryButton">
+                <img src="resources/images/icons/expand-light.svg" alt="expand button" class="button-icon" id="summary-expand-icon">
+                <h4 id="summary-expand-text">Expand</h4>
+            </button>
+            <div class="expand-section" id="summary-section-expanded">
+                <div class="section-title" id="about-me">
+                    <img src="resources/images/icons/person-light.svg" alt="about-me icon">
+                    <h4>About me</h4>
+                </div>
+                <div class="section-container inline">
+                    <div class="section-element">
+                        <h2>Biography</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text 
+                            ever since the 1500s, when an unknown printer took a galley of
+                            type and scrambled it to make a type specimen book. It has survived
+                            not only five centuries, but also the leap into electronic typesetting,
+                            remaining essentially unchanged. It was popularised in the 1960s with
+                            the release of Letraset sheets containing Lorem Ipsum passages, and
+                            more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div class="section-element">
+                        <h2>Biography</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text 
+                                    ever since the 1500s, when an unknown printer took a galley of
+                                    type and scrambled it to make a type specimen book. It has survived
+                                    not only five centuries, but also the leap into electronic typesetting,
+                                    remaining essentially unchanged. It was popularised in the 1960s with
+                                    the release of Letraset sheets containing Lorem Ipsum passages, and
+                                    more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+                <div class="section-container block" id="interests">
+                    <h2>Professional interests</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text 
+                            ever since the 1500s,</p>
+                </div>
+                <div class="section-container block" id="abilities">
+                    <h2>Technical habilities</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text 
+                            ever since the 1500s,</p>
+                </div>
+            </div>
+        </section>
+        <div id="experience-projects-section">
+            <!--- Experience section -->
+            <section id="experience">
+                <div class="section-title" id="experience-title-div">
+                    <img src="resources/images/icons/experience-dark.svg" alt="experience icon" id="experience-header-icon">
+                    <h4 class="section-headline" id="experience-headline">Experience</h4>
+                </div>
+                <button type="button" class="expand-button" id="experienceButton">
+                    <img src="resources/images/icons/expand-dark.svg" alt="expand button" class="button-icon" id="experience-expand-icon">
+                    <h4 id="experience-expand-text"> Expand</h4>
+                </button>
+                <div class="expand-section" id="experience-section-expanded">
+                    <div class="section-element">
+                    <h2>Grupo KSDA</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text 
+                        including versions of Lorem Ipsum.</p>
+                    </div>      
+                </div>
+            </section>
+            <!--- project section -->
+            <section id="projects">
+                <div class="section-title" id="projects-title">
+                    <img src="resources/images/icons/projects-dark.svg" alt="folder icon" id="projects-icon">
+                    <h4 class="section-headline" id="projects-headline">Projects</h4>
+                </div>
+                <button type="button" class="expand-button" id="projectsButton">
+                    <img src="resources/images/icons/expand-dark.svg" alt="expand button" class="button-icon" id="projects-expand-icon">
+                    <h4 id="projects-expand-text"> Expand</h4>
+                </button>
+                <div class="expand-section" id="projects-section-expanded">
+                    <div class="section-element column">
+                    <h2>Health monitoring system</h2>
+                    <div class="project-description">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text 
+                        including versions of Lorem Ipsum.</p>
+                        <a href="#" class="projects-links" id="project-link1">
+                            <img src="resources/images/icons/expand-light.svg" alt="expand button" class="button-icon">
+                            <h4> See project</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="section-element column">
+                    <h2>Personal finance management app</h2>
+                    <div class="project-description">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                            industry. Lorem Ipsum has been the industry's standard dummy text 
+                                            including versions of Lorem Ipsum.</p>
+                        <a href="#" class="projects-links" id="project-link2">
+                            <img src="resources/images/icons/expand-light.svg" alt="expand button" class="button-icon">
+                            <h4> See project</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="section-element column">
+                    <h2>Grupo KSDA</h2>
+                    <div class="project-description">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text 
+                            including versions of Lorem Ipsum.</p>
+                        <a href="#" class="projects-links" id="project-link3">
+                            <img src="resources/images/icons/expand-light.svg" alt="expand button" class="button-icon">
+                            <h4> See project</h4>
+                        </a>    
+                    </div>               
+                </div>   
+            </section>
+        </div>
+    </main>
+    <footer>
+        <a href="#" id="returning-link">
+            <img src="resources/images/icons/arrow-light.svg" alt="inicio">
+            <h4>Voltar ao início</h4>
+        </a>
+        <img src="resources/images/logos/AC Logos-04.svg" id="footer-logo" alt="">
+        <div class="footer-links">
+            <div class="footer-link" id="contacts-links">
+                <div class="link-text" id="contacts-links-text" onclick="footerExpand(contacts)">
+                    <h4>Contacts</h4>
+                    <img src="resources/images/icons/up-light.svg" alt="">
+                </div>
+                <div class="dropdown-list" id="ContactsList">
+                    <ul>
+                        <li>
+                            <a href="mailto:alanchauque.ac@gmail.com" class="contact-link">email</a>
+                        </li>
+                        <li>
+                            <a href="tel:+491630043532" class="contact-link">Whatsapp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-link" id="socialMedia-links">
+                <div class="link-text" id="socialMedia-links-text" onclick="footerExpand(socialMedia)">
+                    <h4>Social media</h4>
+                    <img src="resources/images/icons/up-light.svg" alt="">
+                </div>
+                <div class="dropdown-list" id="socialMediaList">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/alanchauque/" target="_blank" rel="noopener" class="socialMedia-link">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/achauque14" target="_blank" rel="noopener" class="socialMedia-link">Github</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/alan.chauque.7" target="_blank" rel="noopener" class="socialMedia-link">Facebook</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>      
+        <p>&copy; 2025 Alan Chaúque. All rights reserved.</p>
+    </footer>
+</body>
+</html>
